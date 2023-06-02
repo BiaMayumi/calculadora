@@ -1,0 +1,42 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 20px;
+    justify-content:flex-start;
+}
+  
+  h1 {
+    color:#130330;
+}
+
+  
+label {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    font-size: 16px;
+}
+  
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4a1c9e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #2f1166;
+}
+  
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+}
+  
